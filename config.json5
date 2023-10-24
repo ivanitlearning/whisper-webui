@@ -27,13 +27,13 @@
             "url": "large-v2"
         },
         // Uncomment to add custom Japanese models
-        //{
-        //    "name": "whisper-large-v2-mix-jp",
-        //    "url": "vumichien/whisper-large-v2-mix-jp",
-        //    // The type of the model. Can be "huggingface" or "whisper" - "whisper" is the default.
-        //    // HuggingFace models are loaded using the HuggingFace transformers library and then converted to Whisper models.
-        //    "type": "huggingface",
-        //},
+        {
+            "name": "large-v1",
+            "url": "https://openaipublic.azureedge.net/main/whisper/models/e4b87e7e0bf463eb8e6956e646f1e277e901512310def2c24bf0e11bd3c28e9a/large-v1.pt"
+            // The type of the model. Can be "huggingface" or "whisper" - "whisper" is the default.
+            // HuggingFace models are loaded using the HuggingFace transformers library and then converted to Whisper models.
+            //"type": "huggingface",
+        },
         //{
         //    "name": "local-model",
         //    "url": "path/to/local/model",
