@@ -13,4 +13,5 @@ json5
 intervaltree
 srt
 torch
-https://github.com/pyannote/pyannote-audio/archive/refs/heads/develop.zip
+# Latest update breaks
+https://github.com/pyannote/pyannote-audio/archive/d9389defa76ef64c4a16ed77e96e13a5e9875591.zip
