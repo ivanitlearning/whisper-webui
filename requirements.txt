@@ -1,5 +1,8 @@
-git+https://github.com/huggingface/transformers
-git+https://github.com/openai/whisper.git
+# Latest update breaks
+https://github.com/pyannote/pyannote-audio/archive/d9389defa76ef64c4a16ed77e96e13a5e9875591.zip
+
+tiktoken==0.5.2
+sentencepiece==0.1.99
 transformers
 ffmpeg-python==0.2.0
 gradio==3.38.0
@@ -13,5 +16,5 @@ json5
 intervaltree
 srt
 torch
-# Latest update breaks
-https://github.com/pyannote/pyannote-audio/archive/d9389defa76ef64c4a16ed77e96e13a5e9875591.zip
+git+https://github.com/huggingface/transformers
+git+https://github.com/openai/whisper.git
